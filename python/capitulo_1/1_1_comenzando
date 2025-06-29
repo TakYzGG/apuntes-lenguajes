@@ -1,0 +1,34 @@
+El lenguaje python
+- python es un lenguaje ampliamente usado en todo el mundo
+- es un lenguaje de alto nivel para uso general
+- tiene un tipado dinamico
+- tiene gestion de memoria automatica
+- soporta multiples paradigmas de programacion
+- tiene una libreria estandar grande y completa
+
+Versionado de python
+- Existen 2 versiones de python
+- python 3.x version actual de python con desarrollo activo
+- python 2.x version descontinuada de python, solo recive parches de seguridad
+
+El interprete de python
+- el interprete ejecuta el codigo en tiempo real (mientras escribimos)
+- para entrar al interprete hay que escribir "python3" en la terminal y debe
+  aparecer esto ">>>" (esto indica que ya estamos en el interprete)
+- para salir del interprete podemos escribir: exit() o quit() o presionar Ctrl + d
+
+Hola mundo en python
+- creamos un archivo llamado "hola_mundo.py" (la extension .py la usan todos
+  los programas escritos en python)
+- abrimos el archivo con un editor de texto
+- escribimos "print('Hola mundo')" guardamos y salimos del archivo
+- en la terminal escribimos "python3 hola_mundo.py" y debe retornar "Hola mundo"
+
+Gestor de paquetes para python
+- el gestor que se recomienda usar en python es "pip"
+- para instalar un paquete usando pip escribimos en la terminal
+  "pip install nombre_paquete"
+
+Formato del codigo
+- el formato del codigo escrito en python se encuentra en "PEP8". no es
+  estrictamente necesario seguirlo, pero ayuda a crear codigo mas limpio

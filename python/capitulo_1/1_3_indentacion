@@ -1,0 +1,13 @@
+Indentacion
+- python usa bloques indentados (sangria) para definir estructuras de control
+- esto ayuda a la legibilidad del codigo, pero tambien hace que tengas que
+  prestar atencion a los espacios en blanco
+- una mala configuracion del editor puede llevar a errores inesperados
+- python usa el simbolo ":" para empezar un bloque de codigo, pero no tiene un
+  simbolo para el final, termina donde empieces a escribir sin indentar
+- puedes crear condicionales (if) en una sola linea pero no se considera una
+  buena practica
+- si creas un bloque de codigo que todavia no vas a programar, puedes usar
+  "pass" para no provocar errores de indentacion
+- se usan 4 espacios de indentacion
+- mezclar tabulaciones con espacios puede provocar errores de indentacion

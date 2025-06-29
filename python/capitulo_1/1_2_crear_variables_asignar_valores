@@ -1,0 +1,29 @@
+Variables
+- para crear variables en python debes especificar nombre y valor
+- python usa el "=" para asignar variables. ej: variable1 = "hola mundo"
+- las variables pueden comenzar con guiones bajos (_) o una letra pero no con
+  un numero
+- no es necesario declarar la variable antes de asignarle un valor ya que
+  python crea y asigna el tipo a la variable automaticamente
+- python es sensible a las mayusculas en las variables
+- las variables son referencias a objetos en memoria
+- las variables pueden ser redeclaradas en cualquier momento del prograga
+- no se puede asignar una variable usando valor = nombre. esto da error
+- no se pueden usar palabras reservadas de python como nombres de variables
+
+Tipos de datos
+- int: son numeros enteros
+- float: son numeros de punto flotante
+- str: son caracteres o palabras. python usa las comillas simples o dobles
+- bool: solo puede ser "True" o "False". se usa para condiciones
+- None: valor vacio o nulo
+
+Asignacion multiple
+- puedes asignar varias variables en una sola linea. esto se hace de la
+  siguiente manera: a, b, c = 1, 2, 3
+- el numero de variables debe coinsidir con el numero de datos
+- esto es muy util si estas usando arrays (listas, tuplas)
+- tambien puedes asignar el mismo valor a muchas variables. ej: a = b = c = 1.
+- si asignas varias variables al mismo objeto y es un dato inmutable (int,
+  float, str) los demas no cambian, pero si es un dato mutable (list, dict)
+  cambian todos

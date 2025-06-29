@@ -1,0 +1,61 @@
+Booleanos (bool)
+- solo pueden ser 2 valores: "True" o "False"
+- se usa con operadores logicos como "and", "or", "not"
+- se pueden hacer operaciones aritmeticas con valores booleanos. "True" = 1,
+  "False" = 0
+
+Numeros (int, float, complex)
+- int: numeros enteros
+- float: numeros con coma flotante
+- complex: numeros complejos. da errores con los operadores <, <=, >, >=, pero
+  no con los operadores == y !=
+
+Cadena de texto (str, bytes)
+- str: una cadena de texto
+- bytes: una cadena de bytes
+
+Tuplas (tuple)
+- coleccion ordenada de x cantidad de datos (x >= 0)
+- puedes acceder a un dato especifico usando su indice (comienza desde 0)
+- es inmutable, hashable si todos sus elementos tienen hash
+
+Listas (list)
+- coleccion ordenada de x cantidad de datos (x >= 0)
+- puedes acceder a un dato especifico usando su indice (comienza desde 0)
+- mutable, no es hashable
+
+Conjuntos (sets)
+- coleccion desordenada de datos unicos
+- los datos tienen que tienen hash
+
+Fronzet
+- es un conjunto inmutable y hashable
+
+Diccionario (dict)
+- coleccion desordenada de "clave: valor" unicos
+- las claves tienen hash
+
+Dato vacio o nulo (None)
+- None: significa que la variable no tiene dato, se va a asignar mas adelante
+- da errores con los operadores <, <=, >, >=, pero no con los operadores == y
+  !=
+
+Ver el tipo de dato de una variable
+- type(var): retorna el tipo de dato de la variable
+- en sentencias del condicional "if" es posible probar el tipo de dato de una
+  variable con "isinstance(var, type)", trata de evitarse su uso
+- para verificar si el dato de una variable es "None" podemos usar lo siguiente
+  "if var is None:"
+
+Convertir un tipo de dato a otro
+- str a int: si tienes un int como un str, puedes usar "int(str)"
+- str a float: si tienes un float como str, puedes usar "float(str)"
+- str a lista: si quieres convertir un str en una lista, "usa list(str)"
+- str a tupla: si quieres convertir un str en una tupla, "usa tuple(str)"
+- str a conjunto: si quieres convertir un str en un conjunto, "usa set(str)"
+
+Datos mutables e inmutables
+- los datos mutables pueden cambiar sin que cambie si identificador (list, set,
+  dict)
+- los datos inmutables no pueden cambiar (int, float, complex, str, bytes,
+  tuple, frozenset)
