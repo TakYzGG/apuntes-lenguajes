@@ -1,0 +1,10 @@
+Modulos y funciones integradas en python (built-in)
+- un modulo es un archivo que contiene codigo python que se puede usar en otros
+  programas
+- para saber todos los metodos y funciones integradas de python se usa la
+  funcion "dir(__builtins__)"
+- para saber como funciona cualquier funcion se usa "help(func)"
+- los modulos agregan mas funciones a python, por ejemplo el modulo math
+- importar modulo: import nombre_modulo
+- usar funcion de un modulo: nombre_modulo.funcion()
+- para saber las funciones de un modulo usamos "dir(nombre_modulo)"

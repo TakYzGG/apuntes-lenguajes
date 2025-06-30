@@ -1,0 +1,15 @@
+Crear modulos en python
+- un modulo es un archivo con codigo python que se puede importar
+- para crear un modulo creamos un archivo ".py"
+- los modulos tienen funciones (def())
+- las funciones del modulo las podemos usar cuando lo importamos
+- si quieres importar un modulo creado por ti, tienes que especificar la ruta
+  del modulo
+- los modulos pueden importar otros modulos
+- puedes importar una funcion especifica de un modulo usando:
+  from modulo import funcion
+- los modulos pueden tener su propio script para cuando se ejecutan solos usando
+  if __name__ == "__main__": esto significa que es el archivo que se esta
+  ejecutando directamente
+- si tienes un directorio con modulos puedes usar el archivo "__init__.py" para
+  convertir el directorio en un paquete y poder llamarlo

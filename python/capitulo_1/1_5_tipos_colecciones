@@ -1,0 +1,66 @@
+Tipos de colecciones
+- existen 2 tipos de colecciones, las que tienen un solo dato como un "int" o un
+  "str" y las que tienen multiples datos como una "list" o "tuple"
+
+Listas (list)
+- son probablemente las mas usadas
+- son como los arrays de otros lenguajes
+- son una coleccion ordenada de valores validos en python
+- se declaran usando los corchetes "[]" y cada valor se separa por comas
+- puede tener varios tipos de datos distintos (int, float, str, etc)
+- puede tener mas colecciones dentro
+- para acceder a los elementos se usa un indice comenzando a contar desde el 0.
+  lista[3] <-- 3 es el numero de indice
+- si usamos un indice negativo cuenta de atras para adelante. -1 es el ultimo
+  elemento de una lista
+- las listas son mutables, lo que significa que puedes cambiar sus valores
+- es posible agregar y eliminar datos de una lista
+- para agregar un elemento al final de la lista usamos ".append(obj)"
+- para agregar un elemento en un indice especifico usamos ".insert(index, obj)"
+- para eliminar la primera aparicion de un elemento usamos: ".remove(obj)"
+- para saber el indice de un elemento usamos: ".index(obj)"
+- para contar la longitud de una lista usamos: ".len(lista)"
+- para contar cuantas veces aparece un mismo elemento usamos: ".count(obj)"
+- para ver la lista en reversa usamos: ".reverse(lista)" o "lista[::-1]"
+- para eliminar y retornar un elemento usamos: ".pop(index)", si no
+  especificamos un indice elimina el ultimo elemento
+- los elemenos de una lista pueden ser iterados con bucles
+
+Tuplas (tuple)
+- las tuplas son similares a las listas, con la diferencia que las tuplas son
+  inmutables y tienen una longitud fija
+- los valores no pueden ser cambiados
+- suelen usarse para pequenos grupos de datos que no necesitan cambiar
+- se declaran usando los parentesis "()"
+- todas las reglas para indexar las listas aplican a las tuplas
+- las tuplas necesitan un valor (como minimo) para ser declaradas.
+- para declarar tuplas con un solo valor puedes hacerlo asi: tupla = (obj,) o
+  tupla = obj o tupla = tuple(obj)
+
+Diccionarios (dict)
+- son colecciones de pares "clave: valor"
+- se declara usando las llaves "{}", los pares "clave: valor" estan separados
+  por comas y la clave esta separada del valor por 2 puntos
+- para obtener un valor puedes usar la clave: dict[clave] -> retorna el valor
+- para obtener todas las claves de un diccionario usamos "dict.get_keys()". esto
+  se puede usar para iterar con bucles
+- la sintasis de un diccionario se parece a la de un json, el modulo "json"
+  nativo de python permite convertir json a diccionarios y biseversa
+
+Conjuntos (set)
+- son una coleccion de elementos que no se pueden repetir y desordenada
+- se usan en casos donde es importante que algunas cosas esten agrupadas y no
+  ordenadas
+- para grandes grupos de datos es mucho mas rapido que listas o tuplas para
+  verificar si un elemento pertenece o no al conjunto
+- declarar un set es muy parecido a declarar un diccionario, usando las llaves
+  "{}". ej: set = {1,2,3}
+- podemos convertir una lista en un set usando "set(lista)"
+- puedes iterar un set esactamente igual que una lista
+
+Diccionarios por defecto (defaultdict)
+- es un diccionario al que puedes ponerle un valor por defecto, de forma que si
+  accedes a una clave que no existe, se asigna ese valor automaticamente
+- para poder usarlo hay que importar la libreria "collections"
+- este tipo de diccionario no tiene "KeyError"
+- se declaran de la siguiente manera: defaultdict(valor_defecto)

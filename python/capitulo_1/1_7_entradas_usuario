@@ -1,0 +1,6 @@
+Entradas del usuario
+- se usa la funcion "input()". puede tomar como argumento un "str" para mostrarlo
+  por pantalla
+- asigna a una variable el dato que ingrese el usuario
+- "input()" siempre retorna un str. se puede transformar en otros datos
+- se recomienda usar excepciones con "input()" para no tener "ValueError"
