@@ -1,0 +1,5 @@
+Numeros (int, float, complex)
+- existen 3 tipos de numeros: int, float, complex
+- int(): numeros enteros
+- float(): numeros con coma flotante (python usa el punto (.))
+- complex(): numeros complejos (python usa la jota (j))

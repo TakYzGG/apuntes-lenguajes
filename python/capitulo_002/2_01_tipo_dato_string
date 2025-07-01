@@ -1,0 +1,7 @@
+String (str)
+- son conjuntos de caracteres continuos representados con comillas simples ('')
+  o dobles ("")
+- son objetos inmutables, si cambias algo de un string, se crea un objeto nuevo
+- los strings pueden ser mostrados por pantalla con "print()"
+- con los corchetes ([]) puedes mostrar solo una parte del string especificando
+  donde comienza y donde termina usando los index

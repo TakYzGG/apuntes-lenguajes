@@ -1,0 +1,8 @@
+Lista (list)
+- una lista son elementos separados por comas dentro de corchetes
+- es similar a los arrays de C, con la diferencia que pueden tener mas de un
+  tipo de dato
+- con los corchetes ([]) puedes mostrar solo una parte de la lista,
+  especificando donde comienza y donde termina usando los index
+- las listas se pueden sumar para unirlas
+- puedes multiplicarlas para mostrar varias veces la misma lista

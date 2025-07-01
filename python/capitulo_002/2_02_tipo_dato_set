@@ -1,0 +1,9 @@
+Conjuntos (set)
+- es una coleccion desordenada de objetos
+- son mutables, lo que significa que pueden cambiar
+- no pueden tener el mismo dato 2 veces
+- usa las llaves ({}) para declararse
+
+Conjuntos inmutables (frozenset)
+- es como un conjunto, con la diferencia que es inmutable, osea, no puede
+  cambiar
