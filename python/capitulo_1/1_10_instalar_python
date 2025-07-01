@@ -1,0 +1,8 @@
+Instalar python
+- sitio oficial para descargar python: https://www.python.org/downloads/
+- el instalador de windows no pone python automaticamente en el PATH, tiene una
+  opcion para agregarlo (hay que marcarla)
+- escribiendo "python --version" o "python3 --version" muestra la version que
+  tienes instalada de python
+- para instalarlo en linux se usa la paqueteria oficial de la distribucion que
+  estes usando

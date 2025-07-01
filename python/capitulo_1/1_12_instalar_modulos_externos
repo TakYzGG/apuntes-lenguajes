@@ -1,0 +1,18 @@
+Instalar modulos externos (de terceros)
+- para instalar modulos externos se usa "pip"
+- "pip" se usa desde la terminal, no desde el interprete de python
+
+Uso de pip
+- buscar un paquete: pip search <paquete>
+- instalar un paquete: pip install nombre_paquete
+- instalar una version en especifico: pip install nombre_paquete==x.x.x
+- instalar una version en minima: pip install 'nombre_paquete==x.x.x'
+- "x.x.x" es la version del paquete
+- para instalar un paquete que esta en un servidor proxy:
+  pip --proxy https://<direccion_serever>:<puerto> install
+- para actualizar los paquetes instalados: pip list --outdata
+- para actualizar un paquete especifico: pip install nombre_paquete --upgrade
+
+Actualizar pip
+- en linux/macOS: pip install -U pip
+- en windows: "py -m pip install -U pip" o "python -m pip install -U pip"

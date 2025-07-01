@@ -1,0 +1,5 @@
+Funcion help()
+- la funcion "help()" sirve para ver como se usa una funcion, modulo o objeto de
+  python
+- uso de help(): help(obj)
+- para poder usar "help()" con un modulo, primero debes importarlo

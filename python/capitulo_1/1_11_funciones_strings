@@ -1,0 +1,11 @@
+Funciones de strings (str() y repr())
+- las 2 funciones sirven para obtener una representacion legible de un objeto
+- repr(): llama a la funcion ".__repr__():". produce una representacion del
+  objeto, pensado para poder depurar. puede pasarse el resultado a "evar()" para
+  poder reconstruir el objeto (si el tipo de objeto lo permite)
+- str(): llama a la funcion ".__str__():". se usa para mostrarle un texto al
+  usuario
+- cuando le pasamos un objeto a str() devuelve un string del objeto, pero repr()
+  devuelve los datos del objeto para poder crear otro identico
+- cuando creas una clase puedes sobrescribir los metodos "__str__()" y
+  "__repr__()" para que retornen lo que tu quieras
