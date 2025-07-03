@@ -1,0 +1,4 @@
+Errores de indentacion
+- usar distintas cantidades de espacios genera "IdentationError"
+- siempre se usan las mismas cantidades de espacios para indentar en todo el
+  programa para evitar errores

@@ -1,0 +1,5 @@
+Indentacion
+- python usa indentacion para definir los bloques de codigo, el simbolo que se
+  usa son los dos puntos (:)
+- despues de los puntos vienen 4 espacios vacios, se pueden usar espacios o tabs
+  pero no se puede usar de manera mixta porque puede causar errores

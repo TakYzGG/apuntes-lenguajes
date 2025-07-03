@@ -1,0 +1,6 @@
+Escribir documentacion usando docstrings
+- los docstrings son comentarios multilinea usados para escribir la
+  documentacion de: modulos, clases, funciones y metodos
+- debe estar al comienzo del componente a describir
+- existen distintas sintaxis para los docstrings: pep257 (one-line, multi-line),
+  sphinx (se parece a html) y google python style guide

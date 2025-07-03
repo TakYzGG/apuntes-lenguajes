@@ -1,0 +1,9 @@
+Comentarios y documentacion en python
+- hay 3 tipos de comentarios: una sola linea, en la linea y multilienea
+- una sola linea: son comentarios que ocupan una linea completa. se escriben
+  usando el simbolo numeral (#) al comienzo de la linea
+- en la linea: son comentarios que se escriben despues de una instruccion de
+  codigo
+- multilinea: son comentarios que pueden usar multiples lineas. se escriben
+  usando triple comillas simples o dobles. (son como los strings multilinea pero
+  se pueden usar como comentarios)

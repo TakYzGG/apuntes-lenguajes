@@ -1,0 +1,6 @@
+Docstrings
+- son como los comentarios regulares pero se almacenan en la documentacion de la
+  funcion
+- se puede acceder a ellos usando "print(func.__doc__)" o "help(func)"
+- "help(func)" brinda mas informancion importante de la funcion
+- no se pueden usar comentarios normales (#) para esta funcionalidad

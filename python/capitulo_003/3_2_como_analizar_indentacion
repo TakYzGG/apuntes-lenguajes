@@ -1,0 +1,6 @@
+Como sabe python cuando comienza una indentacion?
+- python usa el simbolo de los 2 puntos (:), si luego de ese simbolo no hay mas
+  espacios en blanco que la linea anterior seguido de mas codigo, se produce un
+  "IndentationError"
+- cuando reduces la indentacion, python entiende que termino el bloque y
+  continua ejecutando el codigo
