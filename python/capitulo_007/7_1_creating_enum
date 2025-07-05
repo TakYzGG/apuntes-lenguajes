@@ -1,0 +1,13 @@
+Crear un enum
+- "enum" es una libreira de python, se puede instalar con: pip install enum34
+- crear una clase con enum:
+  from enum import Enum
+
+  class Color(Enum):
+  	red = 1
+	green = 2
+	blue = 3
+
+  print(Color.red) # retorna: Color.red
+  print(Color(1)) # retorna: Color.red
+  print(Color["red"]) # retorna: Color.red
