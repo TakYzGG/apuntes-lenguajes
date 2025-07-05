@@ -1,0 +1,3 @@
+Iterar sobre fechas
+- para poder iterar sobre fechas hay que usar la fecha inicial y final, con un
+  objeto timedelta. ej: for i in range((end_date - start_date).days):

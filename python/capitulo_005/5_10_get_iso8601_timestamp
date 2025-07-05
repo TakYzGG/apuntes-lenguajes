@@ -1,0 +1,5 @@
+Obtener ISO8601 timestamp
+- sin zona horaria, con microsegundos: datetime.now().isoformat()
+- con zona horaria, sin microsegundos:
+  datetime.now(tzlocal()).replace(microsecond=0).isofromat()
+- con zona horaria, con microsegundos: datetime.now(tzlocal()).isoformat()

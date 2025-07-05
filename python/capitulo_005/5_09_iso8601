@@ -1,0 +1,7 @@
+ISO 8601
+- el modulo "iso8601" sirve para convertir cadenas de texto en objetos datetime
+- usa la "T" para separar la fecha del dia
+  ej: iso8601.parse_date("2025-07-05T18:29:00")
+- la zona horaria que usa por defecto es UTC
+- para cambiar la zona horaria tiene un parametro llamado "default_timezone".
+  ej: iso8601.parse_date("2025-07-05T18:29:00", default_timezone=None)

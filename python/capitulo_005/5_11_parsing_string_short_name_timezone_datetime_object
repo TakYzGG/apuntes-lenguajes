@@ -1,0 +1,23 @@
+Analizar un str con nombre de zona horaria corto que se convierta en un objeto
+datetime
+
+Dateutil (libreria)
+- ET = tz.gettz("US/Eastern")
+  CT = tz.gettz("US/Central")
+  MT = tz.gettz("US/Mountain")
+  PT = tz.gettz("US/Pacific")
+
+  us_tzinfos = {"CST": CT, "CDT": CT,
+  				"EST": ET, "EDT": EDT,
+				"MST": MT, "MDT": MT,
+				"PST": PT, "PDT": PT}
+
+dt_est = parse("2025-07-05 18:48:00 EST", tzinfos=us_tzinfos)
+dt_pst = parse("2025-07-05 18:48:00 PST", tzinfos=us_tzinfos)
+
+Pytz (libreria)
+- EST = pytz.timezone("America/New_York")
+  dt = parse("2025-07-05 18:50:00 EST", tzinfos={"EST": EST})
+
+- despues hay que re-localizar la zona horaria:
+  dt.tzinfo.localize(dt.replace(tzinfo=None))

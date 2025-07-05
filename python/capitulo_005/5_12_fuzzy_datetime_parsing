@@ -1,0 +1,4 @@
+Fuzzy datetime parsing
+- esto crea un objeto datetime usando una cadena de texto como:
+  "Today is Junuary 1, 2047 at 8:21:00AM"
+- dt = dateutil.parser.parse("Today is Junuary 1, 2047 at 8:21:00AM", fuzzy=True)
