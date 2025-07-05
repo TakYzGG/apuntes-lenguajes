@@ -1,0 +1,4 @@
+Conjunto de conjuntos (set)
+- si intentamos crear un conjunto con mas conjuntos dentro, dara un "TypeError",
+  para que esto no suceda, podemos usar un "frozenset".
+  ej: {frozenset(1, 2), frozenset(3, 4)} -> esto no genera errores

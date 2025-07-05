@@ -1,0 +1,45 @@
+Operaciones con conjuntos (set)
+- a = {1, 2, 3, 4, 5} b = {3, 4, 5, 6, 7}
+
+Intersecion
+- a.intersection(b) -> {3, 4, 5}
+- a & b -> {3, 4, 5}
+
+Union
+- a.union(b) -> {1, 2, 3, 4, 5, 6, 7}
+- a | b -> {1, 2, 3, 4, 5, 6, 7}
+
+Diferencia
+- a.diference(b) -> {1, 2}
+- a - b -> {1, 2}
+
+Diferencia simetrica
+- a.symmetric_difference(b) -> {1, 2, 6, 7}
+- a ^ b -> {1, 2, 6, 7}
+
+Verificar superset
+- a.issuperset(b) -> False
+- a >= b -> False
+
+Verificar subset
+- a.issubset(b) -> False
+- a <= b -> False
+
+Verificar si 2 sets tienen elementos en comun
+- a.isdisjoint(b) --> True
+
+Verificar si un elemento esta en el set
+- 1 in a -> True
+- 8 in a -> False
+
+Agregar elementos
+- a.add(6)
+- b.add(9)
+
+Eliminar elemetos
+- a.discard(2)
+- a.discard(89) -> No da error si el elemento no existe
+- a.remove(89) -> Da "KeyError" si el elemento no existe
+
+Actualizar sets
+- a.update(b) -> agrega a "a" todos los elementos de "b"

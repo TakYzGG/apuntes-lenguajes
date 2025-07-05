@@ -1,0 +1,5 @@
+Obtener elementos unicos de una lista (list)
+- para eliminar los elementos duplicados en una lista podemos convertirla en un
+  set: set(lista) -> Transforma la lista a un set (eliminando duplicados)
+- podemos convertir ese set sin duplicados nuevamente en una lista: list(set).
+  obteniendo una lista sin elementos duplicados
