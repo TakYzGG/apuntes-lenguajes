@@ -1,0 +1,10 @@
+Cambiar la zona horaria de un objeto datetime
+- para cambiar la zona horaria de un objeto datetime necesitamos un modulo que
+  permita esto como "deteutil"
+- creamos 2 variables, una para la zona horaria y otra para la zona local:
+  utc = tz.tzutc() local = tzlocal()
+- ahora creamos un objeto datetime: utc_now = datetime.utcnow(). este objeto
+  todavia no tiene asignada una zona horaria
+- ahora asignamos una zona horaria: utc_now = utc_now.replace(tzinfo=utc)
+- por ultimo, lo convertimos a la hora actual:
+  local_now = utc_now.astimezone(local)

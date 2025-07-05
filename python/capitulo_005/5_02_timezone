@@ -1,0 +1,23 @@
+Zonas horarias
+- de manera nativa los objetos de datetime no tienen informacion sobre la zona
+  horaria
+- el modulo datetime provee la clase "timezone" que toma a "timedelta" y
+  opcionalmente un nombre. ej: JST = timezone(timedelta(hours=9), "nombre")
+- la libreria estandar de python no provee clases predeterminadas con zonas
+  horarias, para esto hay librerias de terceros como: pytz o dateutil
+
+Libreria dateutil
+- provee clases predeterminadas de zonas horarias, para usarlas tiene el metodo
+  "tz.gettz()". puede ser pasado directamente a datetime
+  ej: from dateutil import tz
+  	  local = tz.gettz()
+	  PT = tz.gettz("US/Pacific") # zona horaria del pacifico
+	  time1 = datetime(2025, 7, 3, 19:36, tzinfo=local) # zona horaria local
+	  time1 = datetime(2025, 7, 3, 19:36, tzinfo=PT) # zona horaria del pacifico
+
+Libreria pytz
+- es mucho mas detallada que dateutil
+- se usa de la siguiente manera:
+      import pytz
+	  PT = pytz.timezone("US/Pacific")
+	  time1 = PT.localize(datetime(2025, 7, 3, 19:39))

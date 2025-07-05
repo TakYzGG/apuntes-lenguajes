@@ -1,0 +1,4 @@
+Convertir un strings en un datetime object
+- importamos datetime: import datetime
+- convertir str a datetime object: datetime.datetime.strptime("2025-07-04T17:09:00-0500",
+  "%Y-%m-%dT%H:%M:%S%z")

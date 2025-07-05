@@ -1,0 +1,8 @@
+Operaciones aritmeticas con fechas
+- los objetos datetime no suelen usarse de forma aislada
+- para hacer operaciones aritmeticas usamos objetos "timedelta"
+- resta: fecha - datetime.timedelta(days=x, hours=y)
+- suma: fecha + datetime.timedelta(days=x, hours=y)
+- las horas no son un parametro obligatorio
+- otros parámetros de timedelta: weeks, days, hours, minutes, seconds,
+  microseconds, milliseconds

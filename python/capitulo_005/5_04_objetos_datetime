@@ -1,0 +1,10 @@
+Uso basico de los objetos datetime
+- el modulo "datetime" tiene 3 objetos primarios: date, time y datetime
+- date: sirve para crear un objeto con la fecha actual: "datetime.date.today()"
+  o con una fecha especifica: "datetime.date(2025, 07, 05)"
+- time: sirve para crear un objeto con una hora especifica:
+  "datetime.time(12, 0, 0)"
+- datetime: combina la clase "date" y la clase "time", puede crear objetos con
+  fecha y hora
+- todas estas clases soportan restas con clases del mismo tipo, si usas 2 clases
+  de distintas, provocara un "TypeError"

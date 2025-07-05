@@ -1,0 +1,6 @@
+Restar meses de un objeto datetime
+- usamos "dateutil" para mas facilidad
+- creamos un objeto datetime con un str: 
+  d = datetime.datetime.strptime("2025-07-05", "%Y-%m-%d")
+- hacemos la resta: d - dateutil.relativedelta.relativedelta(months=x)
+- dateutil.relativedelta tambien puede hacer sumas 

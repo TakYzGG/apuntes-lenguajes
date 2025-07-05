@@ -1,0 +1,4 @@
+Convertir timestamp a datetime
+- el modulo "datetime" puede convertir POSIX timestamp a objetos ITC datetime
+- para hacer esto es de la siguiente manera: segundos_x = time.time()
+  fecha = datetime.datetime.utcfromtimestamp(segundos_x)

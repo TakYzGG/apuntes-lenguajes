@@ -1,0 +1,6 @@
+Diferencia de tiempos en computacion
+- el modulo "datetime" tiene una clase llamada "timedelta" que sirve para
+  representar la diferencia entre 2 fechas u horas
+- para crear un objeto "timedelta" podemos restar 2 fechas o crearlo
+  directamente. ej: delta = timedelta(days=9, hours=7)
+- con timedelta podemos ver la diferencia de dias, horas, segundos, etc
