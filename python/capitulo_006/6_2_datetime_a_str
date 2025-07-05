@@ -1,0 +1,5 @@
+Convertir un objeto datetime en un string
+- se usa el codigo de formato de C para las fechas
+- a = datetime.datetime(2025, 7, 5, 20, 07, 00)
+  b = "%b %d %Y, %H:%M:%S"
+  datetime.strftime(a, b)

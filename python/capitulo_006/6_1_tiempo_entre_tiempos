@@ -1,0 +1,7 @@
+Tiempo entre dos tiempos
+- a = datetime.datetime(2025, 7, 5, 0, 0, 0)
+  b = datetime.datetime(2025, 7, 31, 0, 0, 0)
+  
+  c = (a-b) # Esto es un objeto timedelta
+  print(c.days) # Dias entre los 2 tiempos
+  print(c.total_seconds())
