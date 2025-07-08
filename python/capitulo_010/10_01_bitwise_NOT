@@ -1,0 +1,9 @@
+Bitwise NOT
+- usa el simbolo ~
+- esta puerta logica invierte cualquier numero (si es positivo pasa a negativo y
+  si es negativo pasa a positivo)
+- el cero cuenta como positivo porque los numeros positivos van del cero hasta
+  infinito (~0 = -1)
+- si usas 8 digitos para un numero binario, el primer bit sera para saber si es
+  negativo o positivo (0 = positivo, 1 = negativo)
+- ~n = -n -1

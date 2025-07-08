@@ -1,0 +1,4 @@
+Bitwise XOR
+- usa el simbolo ^
+- esta puerta logica sirve para verificar que uno de los dos numeros es 1, si
+  ambos son 0 o 1 devuelve 0

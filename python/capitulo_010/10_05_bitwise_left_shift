@@ -1,0 +1,4 @@
+Bitwise Left Shift
+- usa el simbolo <<
+- mueve los bits de un numero x lugares a la izquierda, rellenando con ceros la
+  derecha

@@ -1,0 +1,4 @@
+Bitwise AND
+- usa el simbolo &
+- esta puerta logica verifica que los dos numeros sean iguales, retornando 1 si
+  se cumple y 0 sino se cumple
