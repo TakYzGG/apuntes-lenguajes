@@ -1,0 +1,4 @@
+Operadores de lugar
+- los operadores de lugar sirven para hacer operaciones aritmeticas en una misma
+  variable, en vez de escribir "a = a + b", puedes escribir "a += b"
+- esto se puede hacer con cualquier operador (-, +, *, /, //, %, **)

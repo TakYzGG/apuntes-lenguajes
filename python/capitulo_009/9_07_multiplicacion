@@ -1,0 +1,5 @@
+Multiplicacion
+- python usa el simbolo del asterisco (*) para la multiplicacion
+- usar "*=" es lo mismo que hacer: a = a * b
+- puedes multiplicar strins, listas, tuplas, etc para hacer que se repitan x
+  numero de veces

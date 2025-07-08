@@ -1,0 +1,13 @@
+Exponenciacion
+- python una el doble asterisco (**) para la exponenciacion
+- usar "*=" equivale a hacer: a = a ** b
+
+Funcion pow (modulo math)
+- math.pow(a, b)
+- esta funcion hace lo mismo que usar **
+- puede usarse con un tercer argumento, que permite calcular el modulo:
+  math.pow(a, b, mod)
+
+Funciones especiales
+- math.sqrt(x): caltula la raiz cuadrada
+- math.exp(x): calcula e ** x

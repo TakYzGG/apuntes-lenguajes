@@ -1,0 +1,5 @@
+Divicion
+- python usa el simbolo de la barra (/) para la divicion
+- la divicion siempre retorna un objeto tipo float
+- la divicion entera (//) retorna un objeto tipo int
+- usar "=/" equivale a hacer: a = a / b

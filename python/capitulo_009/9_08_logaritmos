@@ -1,0 +1,9 @@
+Logaritmos
+- el modulo math permite calcular logaritmos
+- math.log(x): calcula el logaritmo de x en base e, puedes cambiar la base con
+  un segundo argumento
+
+Logaritmos con baces especiales
+- math.log1p(x): base e -1
+- math.log2(x): base 2
+- math.log10(x): base 10

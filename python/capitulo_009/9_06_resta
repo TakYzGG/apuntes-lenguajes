@@ -1,0 +1,4 @@
+Resta
+- python usa el simbolo de menos (-) para la resta
+- puedes restar objetos int y float indiferentemente 
+- usar "-=" es lo mismo que hacer: a = a - b

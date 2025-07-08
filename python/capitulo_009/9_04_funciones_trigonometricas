@@ -1,0 +1,10 @@
+Funciones trigonometricas
+- el modulo math tiene funciones trigonometricas
+- math.sin(x): calcula el seno de x en radiales
+- math.cos(x): calcula el coseno de x en radiales
+- math.sinh(x): calcula el seno hiperbolico de x en radiales
+- math.cosh(x): calcula el coseno hiperbolico de x en radiales
+- math.tan(x): calcula la tangente de x en radiales
+- math.atan(x): calcula el arcotangente de x en radiales
+- math.hypot(a, b): calcula la hipotenusa de a y b
+- para convertir radiales a grados se usa math.degrees(x)

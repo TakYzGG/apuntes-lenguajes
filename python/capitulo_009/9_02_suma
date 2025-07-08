@@ -1,0 +1,6 @@
+Suma
+- python una el simbolo de mas (+) para la suma
+- la suma devuelve un objeto dependiendo de los objetos a sumar, si sumas un int
+  con otro int, retorna un int. si sumas un float con un int, retorna un float y
+  si sumas 2 floats retorna otro float
+- usar "+=" equivale a hacer: a = a + b
