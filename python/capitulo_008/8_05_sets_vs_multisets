@@ -1,0 +1,11 @@
+Sets vs multisets
+- los conjuntos (sets) son conjuntos de elementos desordenados, pero aveces no
+  es necesario usar elementos desordenados y solo necesitas quitar los elementos
+  repetidos
+- usando sets puedes elimir los elementos duplicados de una lista y volver a
+  convertirlo en una lista. ej: list(set(lista))
+
+Counter (del modulo collections)
+- la funcion "counter" del modulo collections sirve para crear un diccionario
+  usando una lista o string de base, las claves son cada letra y los valores
+  son cuantas veces aparece cada letra
