@@ -1,0 +1,3 @@
+AND y OR
+- and: verifica que todos los argumentos sean verdaderos (True)
+- or: verifica que un argumento sea verdadero

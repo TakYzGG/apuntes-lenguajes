@@ -1,0 +1,6 @@
+Not
+- retorna el opuesto del argumento
+
+Casos posibles
+- not True -> False
+- not False -> True

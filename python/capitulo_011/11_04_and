@@ -1,0 +1,10 @@
+And
+- evalua los argumentos de izquierda a derecha
+- solo evalua el segundo argumento si el primero es True
+- el 1 se considera True y el 0 se considera False
+
+Casos posibles
+- True and True -> True
+- True and False -> False
+- False and True -> False
+- False and False -> False

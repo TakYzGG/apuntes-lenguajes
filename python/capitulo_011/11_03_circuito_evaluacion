@@ -1,0 +1,4 @@
+Circuito de evaluacion de Booleanos
+- en python se comprueban los argumentos en el orden que fueron escritos
+  ej: True and False: comprueba primero el primer argumento (True) y luego el
+  segundo (False). esto tambien aplica a or

@@ -1,0 +1,10 @@
+Or
+- evalua el primer argumento, si el True, no evalua el segundo
+- solo evalua el segundo argumento si el primero es False
+- el 1 se considera True y el 0 se considera False
+
+Casos posibles
+- True or True -> True
+- True or False -> True
+- False or True -> True
+- False or False -> False

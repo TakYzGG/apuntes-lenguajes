@@ -1,0 +1,4 @@
+Ejemplo simple
+- if 3.14 < x < 3.142: esto significa que si se cumplen las 2 comparaciones el
+  retorno va a ser True, si no, retorna False
+- "3.14 < x < 3.142" = "3.14 < x and x < 3.142"
