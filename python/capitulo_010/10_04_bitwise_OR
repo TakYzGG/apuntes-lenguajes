@@ -1,4 +1,4 @@
 Bitwise OR
 - usa el simbolo |
-- esta puerta logica comprueva que uno de los dos numeros sea 1, si es el caso
+- esta puerta logica comprueba que uno de los dos numeros sea 1, si es el caso
   retorna 1, sino retorna 0
