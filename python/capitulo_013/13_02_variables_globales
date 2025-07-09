@@ -1,0 +1,9 @@
+Variables globales
+- en python las variables que estan dentro de una funcion se consideran
+  variables locales
+- las funciones pueden leer variables que estan en alcance global pero no pueden
+  reasignarlas
+- puedes usar el nombre de una variable con alcance global dentro de una funcion
+  sin cambiar la variable global
+- la palabra reservada "global" sirve para poder reasignar una variable que
+  tiene alcance global

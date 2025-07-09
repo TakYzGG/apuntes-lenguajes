@@ -1,0 +1,3 @@
+Variables locales
+- las variables locales son las que se declaran dentro de una funcion
+- no pueden ser usadas fuera de esa funcion

@@ -1,0 +1,5 @@
+Palabra reservada del
+- tiene varios usos dependiendo el caso
+- variable: si usas "del" con una variable, la elimina del alcance donde este
+- clase: si usas "del" con el atributo de una clase, lo elimina
+- iterables (lista, diccionarios): elimina un elemento especifico

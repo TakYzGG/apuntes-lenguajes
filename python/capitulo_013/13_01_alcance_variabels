@@ -1,0 +1,7 @@
+Alcance de las variables (Scope)
+- el alcance de las variables en python es solo en el bloque que se definieron,
+  solo aplica a funciones (def)
+- no puedes llamar a una variable que haya sido creada en un bloque superior al
+  que te encuentras un "UnboundLocalError"
+- nonlocal: si estas usando funciones anidadas, en vez de crear una variable
+  nueva usa la variable de la funcion anterior
