@@ -1,0 +1,2 @@
+Diferente que (!=)
+- comprueba que dos valores sean diferentes, si son iguales retorna False

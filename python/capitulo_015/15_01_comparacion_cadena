@@ -1,0 +1,5 @@
+Comparacion en cadena
+- puedes comparar multiples elementos sin usar and
+- ej: x > y > z (esto es mas corto que: x > y and y > z)
+- esto puede hacerse con cualquier operador de comparacion y con cualquier
+  cantidad de elementos

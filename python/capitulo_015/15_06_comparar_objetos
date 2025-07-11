@@ -1,0 +1,19 @@
+Comparar objetos
+- si comparas tus propias clases, puedes sobrescribir los metodos de comparacion
+  ((==, __eq__), (!=, __ne__), (<, __lt__), (<=, __le__), (>, __gt__),
+  (>=, __ge__))
+  ej:
+  class Foo(object):
+  	def __init__(self):
+	  self.my_item = item
+	def __eq__(self, other):
+	  return self.my_item == other.my_item
+
+  a = Foo(5)
+  b = Foo(5)
+  a == b # True
+  a != b # False
+  a is b # False
+
+- esto puede generar problemas si los objetos no pertenecen a la misma clase, en
+  esos casos se suele usar "isinstance()"

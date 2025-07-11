@@ -1,0 +1,5 @@
+Mayor o menor que (<, >)
+- este operador comparar dos valores
+- int/float: compara cual es mayor o menor (dependiendo el simbolo)
+- str: compara usando lexicographycally, las minusculas se consideran mayores
+  que las mayusculas

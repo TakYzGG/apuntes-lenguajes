@@ -1,0 +1,4 @@
+Igual que (==)
+- comprueba que dos valores sean iguales, si son diferentes retorna False
+- diferencia entre str y int/float ("1" == 1 -> False)
+- es sencible a los espacios ("hola" == "hola " -> False)

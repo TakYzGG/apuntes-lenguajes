@@ -1,0 +1,3 @@
+Comparacion is y ==
+- ==: compara los valores
+- is: compara los identificadores (lo mismo que hacer: id(x) == id(y))
