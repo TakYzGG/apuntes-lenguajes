@@ -1,0 +1,5 @@
+Las funciones saltan el alcance de las clases
+- si creas una variable en una clase, y haces una funcion para retornar esa
+  variable pero la variable esta definida en el alcance global, retornara la
+  variable con alcance global
+- no aplica a funciones lambda o comprehensions

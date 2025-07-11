@@ -1,0 +1,11 @@
+Alcance local vs alcance global
+- globals().keys(): muestra todas las variables globales
+- locals().keys(): muestra todas las variables del alcance actual (funciones)
+- si creas una variable en una funcion con el mismo nombre que una con alcance
+  global, la variable global no se modifica
+- para poder modificar una variable global en alcance local se usa "global"
+  seguido del nombre de la variable a modificar
+- si intentas imprimir una variable global en una funcion pero despues
+  redeclaras esa variable de forma local, genera un "UnboudLocalError"
+- si quieres usar funciones anidadas las varibles no se comparten, cada una
+  tiene su propio alcance global, para que esto no pase se usa "nonlocal"
