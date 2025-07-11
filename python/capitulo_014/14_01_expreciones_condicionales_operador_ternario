@@ -1,0 +1,6 @@
+Expreciones condicionales (operador ternario)
+- el operador ternario se usa en una sola linea para definir algo si una
+  condicion se cumple
+- es muy simple
+- es muy facil de leer
+- ej: texto = "hola mundo" if x > 10 else "adios mundo"

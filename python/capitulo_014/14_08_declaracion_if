@@ -1,0 +1,6 @@
+Declaracion if
+- se ejecuta cuando se cumple una condicion
+- tiene dos partes, la condicion y el cuerpo. ej:
+  if x > 99: # Condicion
+	  print("x es mayor a 99") # Cuerpo
+- si la condicion no se cumple, se saltea ese bloque de codigo

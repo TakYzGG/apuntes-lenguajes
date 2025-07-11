@@ -1,0 +1,6 @@
+Verificar objetos None y asignarles un valor
+- hay varias maneras de comprobar si un objeto es del tipo None
+- if obj is None: (es lo mismo que "obj == None")
+- if not obj: (not convierte None en True)
+- obj = obj or "Hola mundo" (si obj es None, lo redeclara como "hola mundo", si
+  no, lo deja igual)

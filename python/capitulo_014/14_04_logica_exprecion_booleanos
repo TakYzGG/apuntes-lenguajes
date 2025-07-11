@@ -1,0 +1,6 @@
+Logica de exprecion de booleanos
+- evalua dos valores, True o False, y retorna el valor interpretado
+- el operador "and" evalua que los dos valores sean True (si los 2 son
+  verdadedos, retorna el primer valor)
+- el operador "or" evalua que una de los dos valores sea True (si los 2 son
+  verdaderos, retorna el primer valor)

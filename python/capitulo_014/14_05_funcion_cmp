@@ -1,0 +1,5 @@
+Funcion cmp (solo python 2.x)
+- permite comparar dos objetos entre si y asignarles valores de una lista
+- ej: ["igual", "mayor que", "menor que"][cmp(x, y)]
+- en python 3.x se puede usar importando la funcion "cmp_to_key" del modulo
+  "functools"

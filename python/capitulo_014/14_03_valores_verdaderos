@@ -1,0 +1,3 @@
+Valores verdaderos
+- todos los valores son tomados como verdaderos menos: None, False, 0,
+  secuencias vacias ('', "", [], ()) y diccionarios vacios

@@ -1,0 +1,3 @@
+If, elif y else
+- en python, puedes definir una serie de condicionas usado if para el primero,
+  elif para el resto y else (opcionalmente) si ninguna condicion se cumple
